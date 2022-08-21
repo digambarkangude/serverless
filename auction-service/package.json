@@ -1,0 +1,29 @@
+{
+  "name": "auction-service",
+  "version": "1.0.0",
+  "description": "Codingly template for Serverless Framework projects",
+  "author": "Ariel Weinberger <ariel@codingly.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "serverless-bundle": "^1.9.1",
+    "serverless-pseudo-parameters": "^2.6.1",
+    "webpack": "^4.46.0"
+  },
+  "dependencies": {
+    "@middy/core": "2.5.7",
+    "@middy/http-cors": "2.5.7",
+    "@middy/http-error-handler": "2.5.7",
+    "@middy/http-event-normalizer": "2.5.7",
+    "@middy/http-json-body-parser": "2.5.7",
+    "@middy/validator": "^2.1.0",
+    "aws-sdk": "^2.1185.0",
+    "coc-cfn-lint": "^0.1.2",
+    "http-errors": "^2.0.0",
+    "uuid": "^8.3.2"
+  }
+}
